@@ -27,7 +27,7 @@ Participantes:
 #### Requisitos no funcionales
 <!-- Tiempo de respuesta, capacidad de almacenamiento, seguridad, o alguna especificación como el lenguaje de programación, plataforma tecnológica. -->
 
-4. Incluir ..
+4. Incluir propina ...
 5. Usar python como lenguaje de programación
 
 
