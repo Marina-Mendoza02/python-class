@@ -1,0 +1,22 @@
+"""
+expresion = 5.2  # Cambia este valor
+
+if  expresion > 10:
+    print("Gen sobreexpresado")
+elif expresion > 5 and expresion <= 10:
+    print("Expresión normal")
+else:
+    print("Baja expresión")
+
+"""
+
+"""
+secuencia = "ATGCGTGATTGCC" # Coloca aquí una secuencia de ADN`
+
+if len(secuencia) > 150 :
+   print("Secuencia larga")
+else:
+  print("Secuencia corta")"
+
+"""
+

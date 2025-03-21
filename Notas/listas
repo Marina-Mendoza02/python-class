@@ -1,0 +1,21 @@
+"""
+list = ["A", "T", "G", "C"]
+print (list)
+print (list[1])
+list [1] = "U"
+print (list)
+"""
+
+"""
+bases = list("ATGCGTAGC")
+print (bases)
+"""
+
+"""
+list = ["A", "T", "G", "C", "G", "T", "A", "G", "C"]
+print (list[0:5])
+print (list[-3:])
+print (list[::-1])"
+"""
+
+secuencia = "ATGCTTCGA"

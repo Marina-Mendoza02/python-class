@@ -1,0 +1,33 @@
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Define vectors
+x = np.array([2, 3])
+y = np.array([-1, 1])
+
+# Compute projection of x onto y
+proj_x_y = (np.dot(x, y) / np.dot(y, y)) * y
+
+# Plot vectors
+fig, ax = plt.subplots()
+ax.quiver(0, 0, x[0], x[1], angles='xy', scale_units='xy', scale=1, color='b', label='x')
+ax.quiver(0, 0, y[0], y[1], angles='xy', scale_units='xy', scale=1, color='r', label='y')
+ax.quiver(0, 0, proj_x_y[0], proj_x_y[1], angles='xy', scale_units='xy', scale=1, color='g', label='Proj_y(x)')
+
+# Set plot limits
+ax.set_xlim(-2, 3)
+ax.set_ylim(-1, 4)
+ax.axhline(0, color='black', linewidth=0.5)
+ax.axvline(0, color='black', linewidth=0.5)
+ax.grid(True, linestyle='--', linewidth=0.5)
+ax.set_aspect('equal')
+
+# Labels
+plt.legend()
+plt.title("Projection of x onto y")
+plt.xlabel("X-axis")
+plt.ylabel("Y-axis")
+
+# Show plot
+plt.show()
